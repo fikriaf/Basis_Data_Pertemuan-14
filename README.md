@@ -1,1 +1,1 @@
-![Hasil Rekam Audit Trail](kjsdbs.png)
+![Hasil Rekam Audit Trail](hasil.png)
