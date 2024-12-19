@@ -8,7 +8,8 @@ CREATE TABLE audit_trail (
     performed_by VARCHAR(255) NOT NULL
 );
 
-SELECT * FROM Vitsmart.LogTable;
+SELECT * FROM Vitsmart.audit_trail;
+SHOW TRIGGERS;
 
 DELIMITER $$
 
