@@ -29,6 +29,8 @@ GRANT ALL PRIVILEGES ON Vitsmart.* TO 'vitsmart_admindava'@'localhost' WITH GRAN
 CREATE USER 'vitsmart_adminfikri'@'localhost' IDENTIFIED BY 'AdminFikri';
 GRANT ALL PRIVILEGES ON Vitsmart.* TO 'vitsmart_adminfikri'@'localhost' WITH GRANT OPTION;
 
+SHOW GRANTS FOR 'vitsmart_adminfikri'@'localhost';
+
 
 -- Buat user untuk User Master
 CREATE USER 'vitsmart_master'@'localhost' IDENTIFIED BY 'MasterPass123';
